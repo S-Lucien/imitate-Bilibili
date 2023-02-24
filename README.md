@@ -98,7 +98,7 @@ Banner广告区：
 
 页脚区：
 
-![](media/681d37464c8ecb038eaca44c4cc9efd4.png)
+![](media/foot.png)
 
 #### 网页元素多样性
 
