@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>游戏中心</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+<header id="Header" class="header" style="height: 50px">
+    <div class="mini-header" id="mini-header">
+        <div class="nav-link">
+            <ul class="nav-link-ul">
+                <li class="nav-link-item" style="padding-top: 5px"><a class="link" href="../index.html" id="main-site">
+                    <div><img src="../images/bilibili.png" style="width: 30px;height: 30px;"
+                              alt="" id="logo">主站</div>
+                </a></li>
+                <li class="nav-link-item"><a class="link" href="../subPage/anime.html" id="nav-anime">番剧</a>
+                    <div class="popover" style="display: none" id="animePop">
+                        <div class="popover-content">
+                            <div class="popover-content-left">
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧1n.png">
+                                    <div class="pcl-title">盾之勇者成名录 第二季</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧2n.png">
+                                    <div class="pcl-title">辉夜大小姐想让我告白</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧3n.png">
+                                    <div class="pcl-title">博人传 火影忍者新时代</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧4n.png">
+                                    <div class="pcl-title">间谍过家家</div>
+                                </a>
+                            </div>
+                            <div class="pop-divider"></div>
+                            <div class="popover-content-right">
+                                <ul>
+                                    <li style="font-size: 18px"><b>热门番剧</b></li>
+                                    <li><span style="color: gray;font-size: 14px">1</span>
+                                        间谍过家家</li>
+                                    <li><span style="color: gray;font-size: 14px">2</span>
+                                        鬼灭之刃 游郭篇</li>
+                                    <li><span style="color: gray;font-size: 14px">3</span>
+                                        辉夜大小姐想让我告白 -究极浪漫-</li>
+                                    <li><span style="color: gray;font-size: 14px">4</span>
+                                        测不准的阿波连同学</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-live">直播</a>
+                    <div class="popover" style="display: none" id="livePop">
+                        <div class="popover-content">
+                            <div class="popover-content-left">
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/呜米.png">
+                                    <div class="pcl-title">呜米1</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/呜米2.png">
+                                    <div class="pcl-title">呜米2</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/咩栗.png">
+                                    <div class="pcl-title">咩栗1</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/咩栗2.png">
+                                    <div class="pcl-title">咩栗2</div>
+                                </a>
+                            </div>
+                            <div class="pop-divider"></div>
+                            <div class="popover-content-right">
+                                <ul>
+                                    <li style="font-size: 18px"><b>热门活动：</b></li>
+                                    <li style="padding: 0"><a href="">
+                                        <img style="width: 150px;height: 80px"
+                                             src="../images/直播/活动.png"></a></li>
+                                    <li style="padding: 0"><a href="">
+                                        <img style="width: 150px;height: 80px"
+                                             src="../images/直播/活动2.png"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-game">游戏中心</a>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-comic">漫画</a>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-event">赛事</a></li>
+            </ul>
+        </div>
+        <div class="nav-search-box">
+            <form class="nav-searchform">
+                <label>
+                    <input type="text" placeholder="你想看的都在这！">
+                </label>
+                <div class="nav-search-but">
+                    <button style="outline: none;">搜索</button>
+                </div>
+            </form>
+        </div>
+        <!--用户-->
+        <div class="nav-user-center">
+            <div class="user-con">
+                <div id="lj" style="display: block; width: 60px;height: 40px;position: absolute; left: -30px;"></div>
+                <div id="lgin" class="name" style="margin-left: 30px;">
+                    <a href="../login.html" style="color: white;">
+                        <img src="../images/akari.jpg" class="logout-face" alt="" id="userImg">
+                        <div id="username" style="display:inline;">登录</div>
+                    </a>
+                </div>
+                <a class="txt name">
+                    <div id="zcc" class="item" style="margin-left: 10px;">注册</div></a>
+                <a href="collect.html" class="text name">
+                    <div id="collect" class="item" style="margin-left: 10px;"></div></a>
+                <button id="tg" style="position: absolute;right: -5px;cursor: pointer;">投稿</button>
+
+            </div>
+
+        </div>
+    </div>
+</header>
+<div class="home" style="background-image: url(../images/游戏/bg.png)">
+    <div class="game-banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div id="swiper1" class="swiper-slide" style="z-index: 979;transform: translateX(-100px)">
+                    <img id="banner1" class="simg2" src="../images/游戏/banner1.png">
+                </div>
+                <div id="swiper2" class="swiper-slide" style="z-index: 989;transform: translateX(100px)">
+                    <img id="banner2" class="simg1" src="../images/游戏/banner2.png">
+                </div>
+                <div id="swiper3" class="swiper-slide" style="z-index: 969;transform: translateX(300px)">
+                    <img id="banner3" class="simg2" src="../images/游戏/banner3.png">
+                </div>
+            </div>
+            <div class="swiper-pagination">
+                <span class="switcher" id="switcher1" role="button"></span>
+                <span class="switcher" id="switcher2" role="button"></span>
+                <span class="switcher" id="switcher3" role="button"></span>
+            </div>
+        </div>
+    </div>
+    <div style="width: 1160px;margin: -30px auto 0; position: relative;">
+        <div class="recommend-game">
+            <div style="font-size: 24px;color: rgba(0,0,0,.8);letter-spacing: 1px; line-height: 32px;">
+                精品推荐
+            </div>
+            <div class="recommend-item" id="item1">
+                <div class="game-cover"><img src="../images/游戏/game1.png"></div>
+                <div style="box-sizing: border-box;padding-top: 12px;">
+                    <div class="game-title">纯白和弦</div>
+                    <div class="game-info" id="itemInfo1">公测抽NS游戏机</div>
+                    <div class="game-footer">
+                        <div class="score">6.4分</div>
+                        <div style="font-size: 12px; color: rgba(0,0,0,.35);">4731人评</div></div>
+                </div>
+            </div>
+            <div class="recommend-item" id="item2">
+                <div class="game-cover"><img src="../images/游戏/game2.png"></div>
+                <div style="box-sizing: border-box;padding-top: 12px;">
+                    <div class="game-title">深空之眼</div>
+                    <div class="game-info" id="itemInfo2">5月26日全新版本「迷蝶所归处」即将开启</div>
+                    <div class="game-footer">
+                        <div class="score">7.1分</div>
+                        <div style="font-size: 12px; color: rgba(0,0,0,.35);">39337人评</div></div>
+                </div>
+            </div>
+            <div class="recommend-item" id="item3">
+                <div class="game-cover"><img src="../images/游戏/game3.png"></div>
+                <div style="box-sizing: border-box;padding-top: 12px;">
+                    <div class="game-title">筑梦公馆</div>
+                    <div class="game-info" id="itemInfo3">《筑梦公馆》是高沉浸悬疑剧情向手游</div>
+                    <div class="game-footer">
+                        <div class="score">7.5分</div>
+                        <div style="font-size: 12px; color: rgba(0,0,0,.35);">6392人评</div>
+                    </div>
+                </div>
+            </div>
+            <div class="recommend-item" id="item4">
+                <div class="game-cover"><img src="../images/游戏/game4.png"></div>
+                <div style="box-sizing: border-box;padding-top: 12px;">
+                    <div class="game-title">暖雪</div>
+                    <div class="game-info" id="itemInfo4"></div>
+                    <div class="game-footer">
+                        <div class="score">8.3分</div>
+                        <div style="font-size: 12px; color: rgba(0,0,0,.35);">920人评</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/navigator.js"></script>
+<script src="../js/game.js"></script>
+</body>
+</html>

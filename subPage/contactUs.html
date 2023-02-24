@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <style>
+        .contact{margin-top: 1rem;}
+        .contact-form{border:hsl(20,50%,30%) 1px dashed;font-size: 1.1rem;margin: 0 10px;}
+        .form-subtitle{background: hsl(20,50%,30%);color: hsl(0,0%,100%);padding: 2px 5px;}
+        .contact-input{width: 300px;border: hsl(0,0%,80%) 1px solid;}
+        .form-row{padding: 2px 10px;font-size: 1rem;}
+        .form-row-button{margin: 5px}
+        .send{color: black;height: 30px;width: 60px;text-align: center;background-color: lightblue;
+            border:0px;font-size: 1rem;}
+    </style>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<header id="Header" class="header">
+    <div class="mini-header" id="mini-header">
+        <div class="nav-link">
+            <ul class="nav-link-ul">
+                <li class="nav-link-item" style="padding-top: 5px"><a class="link" href="../index.html" id="main-site">
+                    <div><img src="../images/bilibili.png" style="width: 30px;height: 30px;"
+                              alt="" id="logo">主站</div>
+                </a></li>
+                <li class="nav-link-item"><a class="link" href="../subPage/anime.html" id="nav-anime">番剧</a>
+                    <div class="popover" style="display: none" id="animePop">
+                        <div class="popover-content">
+                            <div class="popover-content-left">
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧1n.png">
+                                    <div class="pcl-title">盾之勇者成名录 第二季</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧2n.png">
+                                    <div class="pcl-title">辉夜大小姐想让我告白</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧3n.png">
+                                    <div class="pcl-title">博人传 火影忍者新时代</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧4n.png">
+                                    <div class="pcl-title">间谍过家家</div>
+                                </a>
+                            </div>
+                            <div class="pop-divider"></div>
+                            <div class="popover-content-right">
+                                <ul>
+                                    <li style="font-size: 18px"><b>热门番剧</b></li>
+                                    <li><span style="color: gray;font-size: 14px">1</span>
+                                        间谍过家家</li>
+                                    <li><span style="color: gray;font-size: 14px">2</span>
+                                        鬼灭之刃 游郭篇</li>
+                                    <li><span style="color: gray;font-size: 14px">3</span>
+                                        辉夜大小姐想让我告白 -究极浪漫-</li>
+                                    <li><span style="color: gray;font-size: 14px">4</span>
+                                        测不准的阿波连同学</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-live">直播</a>
+                    <div class="popover" style="display: none" id="livePop">
+                        <div class="popover-content">
+                            <div class="popover-content-left">
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/呜米.png">
+                                    <div class="pcl-title">呜米1</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/呜米2.png">
+                                    <div class="pcl-title">呜米2</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/咩栗.png">
+                                    <div class="pcl-title">咩栗1</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/咩栗2.png">
+                                    <div class="pcl-title">咩栗2</div>
+                                </a>
+                            </div>
+                            <div class="pop-divider"></div>
+                            <div class="popover-content-right">
+                                <ul>
+                                    <li style="font-size: 18px"><b>热门活动：</b></li>
+                                    <li style="padding: 0"><a href="">
+                                        <img style="width: 150px;height: 80px"
+                                             src="../images/直播/活动.png"></a></li>
+                                    <li style="padding: 0"><a href="">
+                                        <img style="width: 150px;height: 80px"
+                                             src="../images/直播/活动2.png"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-link-item"><a class="link" href="game.html" id="nav-game">游戏中心</a>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-comic">漫画</a>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-event">赛事</a></li>
+            </ul>
+        </div>
+        <div class="nav-search-box">
+            <form class="nav-searchform">
+                <label>
+                    <input type="text" placeholder="你想看的都在这！">
+                </label>
+                <div class="nav-search-but">
+                    <button style="outline: none;">搜索</button>
+                </div>
+            </form>
+        </div>
+        <!--用户-->
+        <div class="nav-user-center">
+            <div class="user-con">
+                <div id="lj" style="display: block; width: 60px;height: 40px;position: absolute; left: -30px;"></div>
+                <div id="lgin" class="name" style="margin-left: 30px;">
+                    <a href="../login.html" style="color: white;">
+                        <img src="../images/akari.jpg" class="logout-face" alt="" id="userImg">
+                        <div id="username" style="display:inline;">登录</div>
+                    </a>
+                </div>
+                <a class="txt name">
+                    <div id="zcc" class="item" style="margin-left: 10px;">注册</div></a>
+                <a href="collect.html" class="text name">
+                    <div id="collect" class="item" style="margin-left: 10px;"></div></a>
+                <button id="tg" style="position: absolute;right: -5px;cursor: pointer;">投稿</button>
+
+            </div>
+
+        </div>
+    </div>
+</header>
+<img src="../images/contactbg.png" style="width: 100%;height: 200px">
+<section style="position:absolute;left: 30%;width: 40%;top: 30%" >
+    <h2 style="text-align: center">联系我们</h2>
+    <fieldset class="contact-form">
+        <legend class="form-subtitle">请填写您的联系方式</legend>
+        <form  method="get" id="contact" style="text-align: left" onsubmit="return doSubmit()">
+            <div class="form-row">
+                <lable class="contact">
+                    <strong>姓名：</strong>
+                    <input type="text" name="name" id="name" required="required"
+                           placeholder="2~4个中文字符" autofocus="autofocus" class="contact-input"
+                    pattern="^[\u4e00-\u9fa5][\u4e00-\u9fa5]{0,2}[\u4e00-\u9fa5]$">
+                </lable>
+            </div>
+            <div class="form-row">
+                <label class="contact">
+                    <strong>性别：</strong>
+                    <label><input name="sex" type="radio" id="sex1" value="男"
+                    checked="checked">男</label>
+                    <label><input name="sex" type="radio" id="sex2" value="女">女</label>
+                </label>
+            </div>
+            <div class="form-row">
+                <label class="contact">
+                   <strong>年龄范围：</strong>
+                    <select name="age" size="1" id="age">
+                        <option value="1">18岁以下</option>
+                        <option value="2" selected="selected">18-28岁</option>
+                        <option value="3">28-38岁</option>
+                        <option value="4">38-48岁</option>
+                        <option value="5">48岁以上</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-row">
+                <lable><strong>电子邮件：</strong>
+                <input type="email" name="email" id="email" class="contact-input">
+                </lable>
+            </div>
+            <div class="form-row">
+                <label class="contact">
+                    <strong>手机号码：</strong>
+                    <input type="text" name="telephone" id="telephone" required="required"
+                           pattern="^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\d{8}$"
+                           maxlength="11"
+                           placeholder="必填" class="contact-input">
+                </label>
+            </div>
+            <div class="form-row">
+                <label class="contact">
+                    <strong>公司：</strong>
+                    <input type="text" name="company" id="company" class="contact-input">
+                </label>
+            </div>
+            <div class="form-row">
+                <label><strong>需求：</strong></label>
+                <label><input type="checkbox" name="requirement" value="品牌营销" id="requirement1">品牌营销</label>
+                <label><input type="checkbox" name="requirement" value="效果营销" id="requirement2">效果营销</label>
+                <label><input type="checkbox" name="requirement" value="内容营销" id="requirement3">内容营销</label>
+                <label><input type="checkbox" name="requirement" value="UP主合作" id="requirement4">UP主合作</label>
+                <label><input type="checkbox" name="requirement" value="其他" id="requirement5">其他</label>
+            </div>
+            <div class="form-row">
+                <label class="contact">
+                    <strong>内容：</strong>
+                    <textarea name="content" id="content" cols="20" rows="5"
+                              class="contact-input"></textarea>
+                </label>
+            </div>
+            <div class="form-row-button">
+                <input type="reset" value="重置" class="send" style="margin-left: 20%">&nbsp;
+                <input type="submit" class="send" value="发送">
+            </div>
+        </form>
+    </fieldset>
+</section>
+<script src="../js/navigator.js"></script>
+<script>
+
+    function doSubmit(){
+        var require=document.getElementsByName("requirement");
+        var count=0;
+        for(var i=0;i<require.length;i++){
+            if(require.item(i).checked==true){
+                count++;
+            }
+        }
+        if(count==0){
+            alert("至少选择一项需求！");
+            return false;
+        }else{
+            alert("提交成功！");
+            return true;
+        }
+    }
+</script>
+</body>
+</html>

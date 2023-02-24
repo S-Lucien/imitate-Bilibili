@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <title>登录</title>
+</head>
+<body>
+<div class="bg-img"><img src="images/loginBack.png"></div>
+<div class="container" id="login">
+      <div class="login">
+        <h1>Login</h1>
+        <div style="color: red" id="message"></div>
+        <form>
+          <div class="form-group">
+            <label><b>用户名：</b></label>
+            <input type="text" class="form-control" id="Name" name="Name" value=""
+                   maxlength="12" required placeholder="Username">
+
+          </div>
+          <div class="form-group">
+            <label><b>&emsp;密码：</b></label>
+            <input type="password" class="form-control" id="Password" name="Password"
+                   value="" maxlength="20" required placeholder="Password">
+          </div>
+
+          <div class="form-check">
+
+            <label class="switch">
+              <input type="checkbox" id="remember">
+              <span class="slider round"></span>
+            </label>
+            <label class="form-check-label">Remember me</label>
+
+            <label class="forgot-password"><a href="#">Forgot Password?</a></label>
+
+          </div>
+
+          <br>
+          <input type="button" value="Sign in" class="btn btn-lg btn-block btn-success"
+                 onclick="login()">
+        </form>
+
+          <div style="color: gray">Copyright &copy; 2022.RippleSu All rights reserved.</div>
+      </div>
+</div>
+<script>
+  var sName=localStorage.getItem("sName");
+  var sPassword=localStorage.getItem("sPassword");
+  if(sName){
+    document.getElementById("Name").value=sName;
+  }
+  if(sPassword){
+    document.getElementById("Password").value=sPassword;
+  }
+  function login(){
+    var name=document.getElementById("Name").value;
+    var password=document.getElementById("Password").value;
+    var message=document.getElementById("message");
+    if(password=="123456"){
+      sessionStorage.setItem("name",name);
+      localStorage.setItem("sName",name);
+      if(document.getElementById("remember").checked){
+        localStorage.setItem("sPassword",password);
+      }else{
+        localStorage.removeItem("sPassword");
+      }
+      message.innerHTML="<div style=\"color:lightgreen\">登陆成功！</div>";
+      setTimeout(function (){window.location.href="index.html";},1000);
+    }else {
+      message.innerHTML="<div style=\"color:red\">用户名或密码输入错误！</div>";
+    }
+  }
+</script>
+</body>
+</html>

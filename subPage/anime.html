@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>番剧</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/video.css">
+    <link rel="stylesheet" href="../css/anime.css">
+</head>
+<body>
+<header id="Header" class="header">
+    <div class="mini-header" id="mini-header">
+        <div class="nav-link">
+            <ul class="nav-link-ul">
+                <li class="nav-link-item" style="padding-top: 5px"><a class="link" href="../index.html" id="main-site">
+                    <div><img src="../images/bilibili.png" style="width: 30px;height: 30px;"
+                              alt="" id="logo">主站</div>
+                </a></li>
+                <li class="nav-link-item"><a class="link" href="../subPage/anime.html" id="nav-anime">番剧</a>
+                    <div class="popover" style="display: none" id="animePop">
+                        <div class="popover-content">
+                            <div class="popover-content-left">
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧1n.png">
+                                    <div class="pcl-title">盾之勇者成名录 第二季</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧2n.png">
+                                    <div class="pcl-title">辉夜大小姐想让我告白</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧3n.png">
+                                    <div class="pcl-title">博人传 火影忍者新时代</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧4n.png">
+                                    <div class="pcl-title">间谍过家家</div>
+                                </a>
+                            </div>
+                            <div class="pop-divider"></div>
+                            <div class="popover-content-right">
+                                <ul>
+                                    <li style="font-size: 18px"><b>热门番剧</b></li>
+                                    <li><span style="color: gray;font-size: 14px">1</span>
+                                        间谍过家家</li>
+                                    <li><span style="color: gray;font-size: 14px">2</span>
+                                        鬼灭之刃 游郭篇</li>
+                                    <li><span style="color: gray;font-size: 14px">3</span>
+                                        辉夜大小姐想让我告白 -究极浪漫-</li>
+                                    <li><span style="color: gray;font-size: 14px">4</span>
+                                        测不准的阿波连同学</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-live">直播</a>
+                    <div class="popover" style="display: none" id="livePop">
+                        <div class="popover-content">
+                            <div class="popover-content-left">
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/呜米.png">
+                                    <div class="pcl-title">呜米1</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/呜米2.png">
+                                    <div class="pcl-title">呜米2</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/咩栗.png">
+                                    <div class="pcl-title">咩栗1</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/咩栗2.png">
+                                    <div class="pcl-title">咩栗2</div>
+                                </a>
+                            </div>
+                            <div class="pop-divider"></div>
+                            <div class="popover-content-right">
+                                <ul>
+                                    <li style="font-size: 18px"><b>热门活动：</b></li>
+                                    <li style="padding: 0"><a href="">
+                                        <img style="width: 150px;height: 80px"
+                                             src="../images/直播/活动.png"></a></li>
+                                    <li style="padding: 0"><a href="">
+                                        <img style="width: 150px;height: 80px"
+                                             src="../images/直播/活动2.png"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-link-item"><a class="link" href="game.html" id="nav-game">游戏中心</a>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-comic">漫画</a>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-event">赛事</a></li>
+            </ul>
+        </div>
+        <div class="nav-search-box">
+            <form class="nav-searchform">
+                <label>
+                    <input type="text" placeholder="你想看的都在这！">
+                </label>
+                <div class="nav-search-but">
+                    <button style="outline: none;">搜索</button>
+                </div>
+            </form>
+        </div>
+        <!--用户-->
+        <div class="nav-user-center">
+            <div class="user-con">
+                <div id="lj" style="display: block; width: 60px;height: 40px;position: absolute; left: -30px;"></div>
+                <div id="lgin" class="name" style="margin-left: 30px;">
+                    <a href="../login.html" style="color: white;">
+                        <img src="../images/akari.jpg" class="logout-face" alt="" id="userImg">
+                        <div id="username" style="display:inline;">登录</div>
+                    </a>
+                </div>
+                <a class="txt name">
+                    <div id="zcc" class="item" style="margin-left: 10px;">注册</div></a>
+                <a href="collect.html" class="text name">
+                    <div id="collect" class="item" style="margin-left: 10px;"></div></a>
+                <button id="tg" style="position: absolute;right: -5px;cursor: pointer;">投稿</button>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="bg" style="background-image: url(../images/番剧/bg.png);">
+    <div class="banner">
+        <div style="width: 75%;" id="anime">
+            <dl style="position: relative" >
+                <dt>
+                    <a id="a1"><img id="a1I" class="sImage" style="height: 100%" src="../images/番剧/small1.png"></a>
+                    <a id="a2"><img id="a2I" class="sImage" style="height: 100%" src="../images/番剧/small2.png"></a>
+                    <a id="a3"><img id="a3I" class="sImage" style="height: 100%" src="../images/番剧/small3.png"></a>
+                    <a id="a4"><img id="a4I" class="sImage" style="height: 100%" src="../images/番剧/small4.png"></a>
+                </dt>
+                <dd>
+                    <a href="#"><img src="../images/番剧/banner1.png" class="image" id="anime-img" alt="">
+                        <span class="image-title" id="anime-title">学生会想前进</span></a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="container">
+        <div style="width: 720px;float: left;">
+            <div style="font-size: 20px">最近更新</div>
+            <div class="anime-info">
+                <a href="" class="anime-cover">
+                    <img class="image" src="../images/番剧/辉夜cover.png">
+                </a>
+                <div class="anime-info-right">
+                    <div class="anime-title">辉夜大小姐想让我告白 -究极浪漫-</div>
+                    <div class="anime-count">3598.7万播放  ·  22.2万弹幕  ·  924.5万系列追番</div>
+                    <div style="margin-bottom: 8px;font-size: 12px;color: #212121;">番剧 连载中</div>
+                    <details style="font-size: 12px;line-height: 20px">
+                        <summary>
+                            秀知院学园是秀才云集的菁英学校，在学生会中担任学生会副会长·四宫辉夜遇见了学生会长·白银御行。
+                            原以为这两个任谁都觉得很登对的天才应该很快就会在一起，但这两人却因为过高的自尊心导致他们终没能向对方告白。
+                        </summary>
+                        “该用什么办法才能让对方向自己告白呢？”在这场恋爱头脑战中用尽各种智慧谋略、身经百战的两人，各自在心中下了某个决心。
+                        在秀知院学园高中部的文化祭“奉心祭”的最终日到来前，两人的恋情将会出现巨大的进展。
+                    </details>
+                    <div class="anime-score">
+                        9.7分
+                    </div>
+                </div>
+            </div>
+            <div class="anime-info">
+                <a href="" class="anime-cover">
+                    <img class="image" src="../images/番剧/夏日重现.png">
+                </a>
+                <div class="anime-info-right">
+                    <div class="anime-title">夏日重现</div>
+                    <div class="anime-count">1319.4万播放  ·  6.6万弹幕  ·  126.1万追番</div>
+                    <div style="margin-bottom: 8px;font-size: 12px;color: #212121;">番剧 连载中</div>
+                    <details style="font-size: 12px;line-height: 20px">
+                        <summary>
+                            本年度不可错过的夏日孤岛悬疑佳作！
+                            “潮死了。”
+                            网代慎平收到发小——小舟潮的讣告后，回到了阔别两年的故乡——和歌山市日都岛。
+                        </summary>
+                        慎平与亲人朋友重聚，葬礼也顺利地进行着。
+                        然而，好友告诉他“潮的死有疑点，可能是他杀”。
+                        第二天，邻近的一家人突然全部失踪。与此同时，慎平听说了一个不祥的传闻。
+                        “看到与自己一模一样的‘影子’就会被杀。会被影子杀死！”
+                        而且，潮的妹妹——澪说“姐姐在去世的三天前看到了影子”？！
+                        纪淡海峡的夏日小岛上，跨越时间的科幻悬疑剧即将开幕！
+                    </details>
+                    <div class="anime-score">
+                        9.8分
+                    </div>
+                </div>
+            </div>
+            <div class="anime-info">
+                <a href="" class="anime-cover">
+                    <img class="image" src="../images/番剧/魔法使.png">
+                </a>
+                <div class="anime-info-right">
+                    <div class="anime-title">魔法使黎明期</div>
+                    <div class="anime-count">443万播放  ·  7677弹幕  ·  30.8万追番</div>
+                    <div style="margin-bottom: 8px;font-size: 12px;color: #212121;">番剧 连载中</div>
+                    <details style="font-size: 12px;line-height: 20px">
+                        <summary>
+                            我至今，依然无法想起。 自己究竟是什么——。
+                            魔法学校的学生塞维尔没有任何入学前的记忆。
+                            在不知自己为何会在这里的状态下，连校园生活也有种莫名的空虚感，
+                        </summary>
+                        由于不知道该如何努力，学习成绩也总是倒数第一。
+                        对于这样的塞维尔，魔法学校的校长阿尔巴斯突然交给他一项危险的特别实习。
+                        「我希望你前往魔女狩猎尚未根绝的区域，宣传魔法的实用性。」
+                        在魔女与教会的战争结束数年后——
+                        世界还尚未完全接受魔女与魔法。
+                        时值魔法使黎明期。
+                        这是一个无名少年和隐藏着各自的心伤的同伴们一起寻找自我的故事。
+                    </details>
+                    <div class="anime-score">
+                        2.4分
+                    </div>
+                </div>
+            </div>
+            <div class="anime-info">
+                <a href="" class="anime-cover">
+                    <img class="image" src="../images/番剧/盾勇.png">
+                </a>
+                <div class="anime-info-right">
+                    <div class="anime-title">盾之勇者成名录 第二季</div>
+                    <div class="anime-count">5446.3万播放  ·  35万弹幕  ·  603.4万系列追番</div>
+                    <div style="margin-bottom: 8px;font-size: 12px;color: #212121;">番剧 连载中, 每周三 21:00更新</div>
+                    <details style="font-size: 12px;line-height: 20px">
+                        <summary>
+                            普普通通的大学生——岩谷尚文受到召唤来到异世界，成为了四圣勇者之一——“盾之勇者”。
+                            尽管蒙受不白之冤，多次遭到迫害，他依旧和拉芙塔莉雅、菲洛和梅尔蒂这几个好伙伴齐心协力，从威胁世界的灾厄“浪潮”中保护着人们。
+                        </summary>
+                        在自身的努力和梅洛马格女王的帮助下，尚文恢复了名誉，获得了自己的领地，并为应对即将再次袭来的浪潮进行着准备。
+                        然而，在梅洛马格东方的灵龟国，能带来前所未有灾难的魔物——灵龟复活了。
+                        尚文接受了女王讨伐灵龟的委托，一行人带上新加入的队友莉西亚前往灵龟国。
+                        在联军陆续集结之时，灵龟国国王侧室——奥斯特·蓬莱摄政王妃出现在了尚文面前。
+                        尚文从她口中得知，灵龟是被人以非常规方式复活的。
+                        他们究竟能否讨伐灵龟，揪出幕后黑手呢？
+                        为守护珍视之人，盾之勇者再次奋起战斗。
+                    </details>
+                    <div class="anime-score">
+                        6.1分
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="width: 260px;float: right;margin-left: 30px">
+            <div style="font-size: 18px">我的追番</div>
+            <div class="follows">
+                <div style="display: flex">
+                    <a href="" style="width: 126px;height: 80px">
+                        <img class="sImage" style="width: 100%" src="../images/番剧/track1.png"> </a>
+                    <div class="follow-info">
+                        <div class="follow-title">辉夜大小姐想让我告白 -究极浪漫-</div>
+                        <div class="follow-text" style="color: #fb7299;">更新至第六话</div>
+                        <div class="follow-text">看到第4话 8:25</div>
+                    </div>
+                </div>
+                <div style="display: flex">
+                    <a href="" style="width: 126px;height: 80px">
+                        <img class="sImage" style="width: 100%" src="../images/番剧/track2.png"> </a>
+                    <div class="follow-info">
+                        <div class="follow-title">盾之勇者成名录 第二季</div>
+                        <div class="follow-text">更新至第9话</div>
+                        <div class="follow-text">看到第9话 23:38</div>
+                    </div>
+                </div>
+                <div style="display: flex">
+                    <a href="" style="width: 126px;height: 80px">
+                        <img class="sImage" style="width: 100%" src="../images/番剧/track3.png"> </a>
+                    <div class="follow-info">
+                        <div class="follow-title">RPG不动产</div>
+                        <div class="follow-text">更新至第9话</div>
+                        <div class="follow-text">看到第9话</div>
+                    </div>
+                </div>
+                <div style="display: flex">
+                    <a href="" style="width: 126px;height: 80px">
+                        <img class="sImage" style="width: 100%" src="../images/番剧/track4.png"> </a>
+                    <div class="follow-info">
+                        <div class="follow-title">处刑少女的生存之道</div>
+                        <div class="follow-text">更新至第9话</div>
+                        <div class="follow-text">看到第9话 0:01</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/anime.js"></script>
+<script src="../js/navigator.js"></script>
+</body>
+</html>

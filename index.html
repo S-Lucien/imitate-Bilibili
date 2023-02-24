@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="Dilidili,嘀哩嘀哩,嘀哩嘀哩动画,嘀哩嘀哩弹幕网,弹幕视频,D站">
+    <meta name="Description" content="Dilidili是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。">
+    <title>嘀哩嘀哩 (゜-゜)つロ 干杯~-Dilidili</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header id="Header" class="header">
+    <div class="mini-header" style="position:fixed;" id="mini-header">
+            <div class="nav-link">
+                <ul class="nav-link-ul">
+                    <li class="nav-link-item" style="padding-top: 5px"><a class="link" href="" id="main-site">
+                        <div><img src="images/bilibili.png" style="width: 30px;height: 30px;"
+                                  alt="" id="logo">主站</div>
+                    </a></li>
+                    <li class="nav-link-item">
+                        <a class="link" href="subPage/anime.html" id="nav-anime">番剧</a>
+                        <div class="popover" style="display: none" id="animePop">
+                            <div class="popover-content">
+                                <div class="popover-content-left">
+                                    <a href="">
+                                        <img class="pcl-img" src="images/番剧/番剧1n.png">
+                                        <div class="pcl-title">盾之勇者成名录 第二季</div>
+                                    </a>
+                                    <a href="">
+                                        <img class="pcl-img" src="images/番剧/番剧2n.png">
+                                        <div class="pcl-title">辉夜大小姐想让我告白</div>
+                                    </a>
+                                    <a href="">
+                                        <img class="pcl-img" src="images/番剧/番剧3n.png">
+                                        <div class="pcl-title">博人传 火影忍者新时代</div>
+                                    </a>
+                                    <a href="">
+                                        <img class="pcl-img" src="images/番剧/番剧4n.png">
+                                        <div class="pcl-title">间谍过家家</div>
+                                    </a>
+                                </div>
+                                <div class="pop-divider"></div>
+                                <div class="popover-content-right">
+                                    <ul>
+                                        <li style="font-size: 18px"><b>热门番剧</b></li>
+                                        <li><span style="color: gray;font-size: 14px">1</span>
+                                             间谍过家家</li>
+                                        <li><span style="color: gray;font-size: 14px">2</span>
+                                            鬼灭之刃 游郭篇</li>
+                                        <li><span style="color: gray;font-size: 14px">3</span>
+                                            辉夜大小姐想让我告白 -究极浪漫-</li>
+                                        <li><span style="color: gray;font-size: 14px">4</span>
+                                            测不准的阿波连同学</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-link-item"><a class="link" href="" id="nav-live">直播</a>
+                        <div class="popover" style="display: none" id="livePop">
+                            <div class="popover-content">
+                                <div class="popover-content-left">
+                                    <a href="">
+                                        <img class="pcl-img" src="images/直播/呜米.png">
+                                        <div class="pcl-title">呜米1</div>
+                                    </a>
+                                    <a href="">
+                                        <img class="pcl-img" src="images/直播/呜米2.png">
+                                        <div class="pcl-title">呜米2</div>
+                                    </a>
+                                    <a href="">
+                                        <img class="pcl-img" src="images/直播/咩栗.png">
+                                        <div class="pcl-title">咩栗1</div>
+                                    </a>
+                                    <a href="">
+                                        <img class="pcl-img" src="images/直播/咩栗2.png">
+                                        <div class="pcl-title">咩栗2</div>
+                                    </a>
+                                </div>
+                                <div class="pop-divider"></div>
+                                <div class="popover-content-right">
+                                    <ul>
+                                        <li style="font-size: 18px"><b>热门活动：</b></li>
+                                        <li style="padding: 0"><a href="">
+                                            <img style="width: 150px;height: 80px"
+                                                 src="images/直播/活动.png"></a></li>
+                                        <li style="padding: 0"><a href="">
+                                            <img style="width: 150px;height: 80px"
+                                                 src="images/直播/活动2.png"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-link-item"><a class="link" href="subPage/game.html" id="nav-game">游戏中心</a>
+                    </li>
+                    <li class="nav-link-item"><a class="link" href="" id="nav-comic">漫画</a>
+                    </li>
+                    <li class="nav-link-item"><a class="link" href="" id="nav-event">赛事</a></li>
+                </ul>
+            </div>
+            <div class="nav-search-box">
+                <form class="nav-searchform">
+                    <label>
+                        <input type="text" placeholder="你想看的都在这！">
+                    </label>
+                    <div class="nav-search-but">
+                        <button style="outline: none;">搜索</button>
+                    </div>
+                </form>
+            </div>
+            <!--用户-->
+            <div class="nav-user-center">
+                <div class="user-con">
+                    <div id="lj" style="display: block; width: 80px;height: 40px;position: absolute; left: -30px;"></div>
+                    <div id="lgin" class="name" style="margin-left: 20px;">
+                        <a href="login.html" style="color: white;">
+                            <img src="images/akari.jpg" class="logout-face" alt="" id="userImg">
+                            <div id="username" style="display:inline;">登录</div>
+                        </a>
+                    </div>
+                    <a class="txt name">
+                        <div id="zcc" class="item" style="margin-left: 10px;">注册</div></a>
+                    <a href="subPage/collect.html" class="text name">
+                        <div id="collect" class="item" style="margin-left: 10px;"></div></a>
+                    <button id="tg" style="position: absolute;right: -5px;cursor: pointer;">投稿</button>
+
+                </div>
+
+        </div>
+    </div>
+<!--背景-->
+    <div class="bili-banner" style="background-image:url(images/bilibili-banner.png);">
+        <div id="春"><img src="images/春.png" alt=""></div>
+    </div>
+
+    <div class="header-channel">
+        <div class="page-tab">
+            <a class="page-tab-item" href="">
+                <div><img src="images/动态.png" class="page-tab-item-icon" alt=""></div>动态
+            </a>
+            <a class="page-tab-item" href="">
+                <div><img src="images/推荐/热门.png" class="page-tab-item-icon" alt=""></div>热门
+            </a>
+            <a class="page-tab-item" href="">
+                <div><img src="images/排行榜.png" class="page-tab-item-icon" alt=""></div>排行榜
+            </a>
+        </div>
+        <div class="right-channel-container">
+            <div class="channel-items__left">
+                <a href="" class="channel-link__left" >番剧</a>
+                <a href="" class="channel-link__left" >国创</a>
+                <a href="" class="channel-link__left" >综艺</a>
+                <a href="" class="channel-link__left" >动画</a>
+                <a href="" class="channel-link__left" >鬼畜</a>
+                <a href="" class="channel-link__left" >舞蹈</a>
+                <a href="" class="channel-link__left" >娱乐</a>
+                <a href="" class="channel-link__left" >科技</a>
+                <a href="" class="channel-link__left" >美食</a>
+                <a href="" class="channel-link__left" >运动</a>
+                <a href="" class="channel-link__left" >电影</a>
+                <a href="" class="channel-link__left" >游戏</a>
+                <a href="" class="channel-link__left" >音乐</a>
+                <a href="" class="channel-link__left" >影视</a>
+                <a href="" class="channel-link__left" >生活</a>
+                <a href="" class="channel-link__left" >电视剧</a>
+                <a href="" class="channel-link__left" >纪录片</a>
+                <a href="" class="channel-link__left" >虚拟UP主</a>
+            </div>
+            <div class="channel-items__right">
+                <a href="" class="channel-link__right">专栏</a>
+                <a href="" class="channel-link__right">直播</a>
+                <a href="" class="channel-link__right">活动</a>
+                <a href="" class="channel-link__right">课堂</a>
+                <a href="" class="channel-link__right">社区中心</a>
+                <a href="" class="channel-link__right">新歌热榜</a>
+            </div>
+        </div>
+
+    </div>
+
+</header>
+<main class="layout">.
+    <section class="card" id="recommend">
+        <div class="recommend-card">
+            <div class="recommend-swipe" id="adv">
+                <dl>
+                    <dt>
+                        <a id="a1">1</a><a id="a2">2</a>
+                        <a id="a3">3</a><a id="a4">4</a>
+                    </dt>
+                    <dd>
+                        <a href="#"><img src="images/推荐/act1.png" class="image" id="act-img" alt="">
+                            <span class="image-title" id="act-title">这段青春，你可想过反复重刷</span></a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="video-card" id="rec-video11">
+                <a href="">
+                    <img src="images/推荐/推荐-往世乐土.png" class="video_cover" alt="">
+                    <div class="video-title">【往世乐土推荐表】全新升级，一表在手，乐土横着走</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        月光中心_official · 3-27
+                    </div>
+                </a>
+            </div>
+            <div class="video-card" id="rec-video12">
+                <a href="">
+                    <img src="images/推荐/推荐-往世乐土.png" class="video_cover" alt="">
+                    <div class="video-title">【往世乐土推荐表】全新升级，一表在手，乐土横着走</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        月光中心_official · 3-27
+                    </div>
+                </a>
+            </div>
+            <div class="video-card" id="rec-video13">
+            <a href="">
+                <img src="images/推荐/推荐-往世乐土.png" class="video_cover" alt="">
+                <div class="video-title">【往世乐土推荐表】全新升级，一表在手，乐土横着走</div>
+                <div class="video-up">
+                    <img src="images/up.png" class="video-up-png" alt="">
+                    月光中心_official · 3-27
+                </div>
+            </a>
+            </div>
+            <div class="video-card" id="rec-video14">
+                <a href="subPage/video2.html">
+                    <img src="images/推荐/推荐-碧蓝档案.png" class="video_cover" alt="">
+                    <div class="video-title">【4K/收藏级画质】碧蓝档案！一周年PV！ Blue Archive~</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        糖糖唯恋萌萌 · 4-23
+                    </div>
+                </a>
+            </div>
+            <div class="video-card" id="rec-video15">
+                <a href="subPage/video2.html">
+                    <img src="images/推荐/推荐-碧蓝档案.png" class="video_cover" alt="">
+                    <div class="video-title">【4K/收藏级画质】碧蓝档案！一周年PV！ Blue Archive~</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        糖糖唯恋萌萌 · 4-23
+                    </div>
+                </a>
+            </div>
+            <div class="video-card" id="rec-video16">
+                <a href="subPage/video2.html">
+                    <img src="images/推荐/推荐-碧蓝档案.png" class="video_cover" alt="">
+                    <div class="video-title">【4K/收藏级画质】碧蓝档案！一周年PV！ Blue Archive~</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        糖糖唯恋萌萌 · 4-23
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-card" id="rec-video21" hidden>
+                <a href="subPage/video1.html">
+                    <img src="images/推荐/推荐-崩坏三.png" class="video_cover" alt="">
+                    <div class="video-title">「Cynical Night Plan」／崩坏3MMD</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        AldoRiiiies · 5-16
+                    </div>
+                </a>
+            </div>
+            <div class="video-card" id="rec-video22" hidden>
+                <a href="subPage/video1.html">
+                    <img src="images/推荐/推荐-崩坏三.png" class="video_cover" alt="">
+                    <div class="video-title">「Cynical Night Plan」／崩坏3MMD</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        AldoRiiiies · 5-16
+                    </div>
+                </a>
+            </div>
+            <div class="video-card" id="rec-video23" hidden>
+                <a href="subPage/video1.html">
+                    <img src="images/推荐/推荐-崩坏三.png" class="video_cover" alt="">
+                    <div class="video-title">「Cynical Night Plan」／崩坏3MMD</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        AldoRiiiies · 5-16
+                    </div>
+                </a>
+            </div>
+            <div class="video-card" id="rec-video24" hidden>
+                <a href="">
+                    <img src="images/推荐/推荐-鸣潮.png" class="video_cover" alt="">
+                    <div class="video-title">《鸣潮》概念CG | 昼前</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        鸣潮游戏 · 5-27
+                    </div>
+                </a>
+            </div>
+            <div class="video-card" id="rec-video25" hidden>
+                <a href="">
+                    <img src="images/推荐/推荐-鸣潮.png" class="video_cover" alt="">
+                    <div class="video-title">《鸣潮》概念CG | 昼前</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        鸣潮游戏 · 5-27
+                    </div>
+                </a>
+            </div>
+            <div class="video-card" id="rec-video26" hidden>
+                <a href="">
+                    <img src="images/推荐/推荐-鸣潮.png" class="video_cover" alt="">
+                    <div class="video-title">《鸣潮》概念CG | 昼前</div>
+                    <div class="video-up">
+                        <img src="images/up.png" class="video-up-png" alt="">
+                        鸣潮游戏 · 5-27
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="switch-btn">
+            <button class="card-button" id="rec-switcher"><span>换一换</span></button>
+        </div>
+    </section>
+
+    <section class="card">
+        <div class="live-card" style="min-height: 230px" >
+            <div class="card-header">
+                <div class="card-header-left">
+                    <img src="images/推荐/推广.png" class="card-header-icon" alt="">
+                    <a href="" style="font-size: 20px">推广</a>
+                </div>
+            </div>
+            <div class="card-body" style="grid-template-rows: repeat(1,1fr);">
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/推荐/推广-游戏引擎.png" class="video_cover" alt="">
+                        <div class="video-title">01.游戏引擎导论 | GAMES104-现代游戏引擎：从入门到实践</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            GAMES-Webinar · 3-15
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/推荐/推广-游戏引擎.png" class="video_cover" alt="">
+                        <div class="video-title">01.游戏引擎导论 | GAMES104-现代游戏引擎：从入门到实践</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            GAMES-Webinar · 3-15
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/推荐/推广-游戏引擎.png" class="video_cover" alt="">
+                        <div class="video-title">01.游戏引擎导论 | GAMES104-现代游戏引擎：从入门到实践</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            GAMES-Webinar · 3-15
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/推荐/推广-游戏引擎.png" class="video_cover" alt="">
+                        <div class="video-title">01.游戏引擎导论 | GAMES104-现代游戏引擎：从入门到实践</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            GAMES-Webinar · 3-15
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card" id="live">
+        <div class="live-card">
+            <div class="card-header">
+                <div class="card-header-left">
+                    <img src="images/直播/直播.png" class="card-header-icon" alt="">
+                    <a href="" style="font-size: 20px">直播</a>
+                </div>
+                <div class="card-header-right">
+                    <button class="card-button" id="live-switcher">换一换</button>
+                    <a class="card-button" href="">查看更多<b>-></b></a>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div id="live11">
+                    <a href="">
+                        <img src="images/直播/呜米.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>聊聊喜欢
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            呜米
+                        </div>
+                    </a>
+                </div>
+                <div id="live12">
+                    <a href="">
+                        <img src="images/直播/呜米.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>聊聊喜欢
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            呜米
+                        </div>
+                    </a>
+                </div>
+                <div id="live13">
+                    <a href="">
+                        <img src="images/直播/呜米.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>聊聊喜欢
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            呜米
+                        </div>
+                    </a>
+                </div>
+                <div id="live14">
+                    <a href="">
+                        <img src="images/直播/呜米.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>聊聊喜欢
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            呜米
+                        </div>
+                    </a>
+                </div>
+                <div id="live15">
+                    <a href="">
+                        <img src="images/直播/咩栗.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>玫瑰情人节-
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            咩栗
+                        </div>
+                    </a>
+                </div>
+                <div id="live16">
+                    <a href="">
+                        <img src="images/直播/咩栗.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>玫瑰情人节-
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            咩栗
+                        </div>
+                    </a>
+                </div>
+                <div id="live17">
+                    <a href="">
+                        <img src="images/直播/咩栗.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>玫瑰情人节-
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            咩栗
+                        </div>
+                    </a>
+                </div>
+                <div id="live18">
+                    <a href="">
+                        <img src="images/直播/咩栗.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>玫瑰情人节-
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            咩栗
+                        </div>
+                    </a>
+                </div>
+                <div id="live21" hidden>
+                    <a href="">
+                        <img src="images/直播/呜米2.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>【生日会新衣】 只长快乐不长大
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            呜米
+                        </div>
+                    </a>
+                </div>
+                <div id="live22" hidden>
+                    <a href="">
+                        <img src="images/直播/呜米2.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>【生日会新衣】 只长快乐不长大
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            呜米
+                        </div>
+                    </a>
+                </div>
+                <div id="live23" hidden>
+                    <a href="">
+                        <img src="images/直播/呜米2.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>【生日会新衣】 只长快乐不长大
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            呜米
+                        </div>
+                    </a>
+                </div>
+                <div id="live24" hidden>
+                    <a href="">
+                        <img src="images/直播/呜米2.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>【生日会新衣】 只长快乐不长大
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            呜米
+                        </div>
+                    </a>
+                </div>
+                <div id="live25" hidden>
+                    <a href="">
+                        <img src="images/直播/咩栗2.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>眠羊电台
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            咩栗
+                        </div>
+                    </a>
+                </div>
+                <div id="live26" hidden>
+                    <a href="">
+                        <img src="images/直播/咩栗2.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>眠羊电台
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            咩栗
+                        </div>
+                    </a>
+                </div>
+                <div id="live27" hidden>
+                    <a href="">
+                        <img src="images/直播/咩栗2.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>眠羊电台
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            咩栗
+                        </div>
+                    </a>
+                </div>
+                <div id="live28" hidden>
+                    <a href="">
+                        <img src="images/直播/咩栗2.png" class="video_cover" alt="">
+                        <div class="live-title">
+                            <div class="live-info">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span>直播中</span>
+                            </div>眠羊电台
+                        </div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            咩栗
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <aside class="aside-wrap">
+            <div class="card-header">
+                <div class="card-header-left" style="font-size: 24px">排行榜</div>
+                <button class="card-button">更多<b>-></b></button>
+            </div>
+            <div class="aside-body">
+                <ul class="aside-body-list">
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number" style="color: red">1</div>
+                        <img src="images/直播/咩栗头像.png" class="live-list-item-img" alt="">
+                        <a href="" style="width: 100%;">
+                                <div class="list-item-title">
+                                    <img src="images/直播/live.gif" class="live-gif" alt="">
+                                    <span><b>咩栗</b></span>
+                                </div>
+                                <div class="live-list-item-info">
+                                    <div>我被踢出群啦！</div>
+                                    <div style="position:absolute;right: 0">
+                                        <img src="images/直播/live-人气.png" class="live-gif" alt="">
+                                        99.9万
+                                    </div>
+                                </div>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number" style="color: red">2</div>
+                        <img src="images/直播/呜米头像.png" class="live-list-item-img" alt="">
+                        <a href="" style="width: 100%;">
+                            <div class="list-item-title">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span><b>呜米</b></span>
+                            </div>
+                            <div class="live-list-item-info">
+                                <div>放松一哈随便聊聊</div>
+                                <div style="position:absolute;right: 0">
+                                    <img src="images/直播/live-人气.png" class="live-gif" alt="">
+                                    88.8万
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number" style="color: red">3</div>
+                        <img src="images/直播/咩栗头像.png" class="live-list-item-img" alt="">
+                        <a href="" style="width: 100%;">
+                            <div class="list-item-title">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span><b>咩栗</b></span>
+                            </div>
+                            <div class="live-list-item-info">
+                                <div>我被踢出群啦！</div>
+                                <div style="position:absolute;right: 0">
+                                    <img src="images/直播/live-人气.png" class="live-gif" alt="">
+                                    99.9万
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">4</div>
+                        <img src="images/直播/呜米头像.png" class="live-list-item-img" alt="">
+                        <a href="" style="width: 100%;">
+                            <div class="list-item-title">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span><b>呜米</b></span>
+                            </div>
+                            <div class="live-list-item-info">
+                                <div>放松一哈随便聊聊</div>
+                                <div style="position:absolute;right: 0">
+                                    <img src="images/直播/live-人气.png" class="live-gif" alt="">
+                                    88.8万
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number">5</div>
+                        <img src="images/直播/咩栗头像.png" class="live-list-item-img" alt="">
+                        <a href="" style="width: 100%;">
+                            <div class="list-item-title">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span><b>咩栗</b></span>
+                            </div>
+                            <div class="live-list-item-info">
+                                <div>我被踢出群啦！</div>
+                                <div style="position:absolute;right: 0">
+                                    <img src="images/直播/live-人气.png" class="live-gif" alt="">
+                                    99.9万
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">6</div>
+                        <img src="images/直播/呜米头像.png" class="live-list-item-img" alt="">
+                        <a href="" style="width: 100%;">
+                            <div class="list-item-title">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span><b>呜米</b></span>
+                            </div>
+                            <div class="live-list-item-info">
+                                <div>放松一哈随便聊聊</div>
+                                <div style="position:absolute;right: 0">
+                                    <img src="images/直播/live-人气.png" class="live-gif" alt="">
+                                    88.8万
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number">7</div>
+                        <img src="images/直播/咩栗头像.png" class="live-list-item-img" alt="">
+                        <a href="" style="width: 100%;">
+                            <div class="list-item-title">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span><b>咩栗</b></span>
+                            </div>
+                            <div class="live-list-item-info">
+                                <div>我被踢出群啦！</div>
+                                <div style="position:absolute;right: 0">
+                                    <img src="images/直播/live-人气.png" class="live-gif" alt="">
+                                    99.9万
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">8</div>
+                        <img src="images/直播/呜米头像.png" class="live-list-item-img" alt="">
+                        <a href="" style="width: 100%;">
+                            <div class="list-item-title">
+                                <img src="images/直播/live.gif" class="live-gif" alt="">
+                                <span><b>呜米</b></span>
+                            </div>
+                            <div class="live-list-item-info">
+                                <div>放松一哈随便聊聊</div>
+                                <div style="position:absolute;right: 0">
+                                    <img src="images/直播/live-人气.png" class="live-gif" alt="">
+                                    88.8万
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </section>
+
+    <section class="card" id="anime">
+        <div class="live-card">
+            <div class="card-header">
+                <div class="card-header-left">
+                    <img src="images/番剧/番剧.png" class="card-header-icon" alt="">
+                    <a href="" style="font-size: 20px">番剧</a>
+                </div>
+                <div class="card-header-right">
+                    <button class="card-button">换一换</button>
+                    <a class="card-button" href="subPage/anime.html">查看更多<b>-></b></a>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/番剧/番剧1.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">盾之勇者成名录 第二季</div>
+                        <div class="video-up">第9话</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/番剧/番剧1.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">盾之勇者成名录 第二季</div>
+                        <div class="video-up">第9话</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/番剧/番剧1.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">盾之勇者成名录 第二季</div>
+                        <div class="video-up">第9话</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/番剧/番剧1.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">盾之勇者成名录 第二季</div>
+                        <div class="video-up">第9话</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/番剧/番剧2.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">辉夜大小姐想让我告白 -究极浪漫-</div>
+                        <div class="video-up">第6话</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/番剧/番剧2.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">辉夜大小姐想让我告白 -究极浪漫-</div>
+                        <div class="video-up">第6话</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/番剧/番剧2.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">辉夜大小姐想让我告白 -究极浪漫-</div>
+                        <div class="video-up">第6话</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/番剧/番剧2.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">辉夜大小姐想让我告白 -究极浪漫-</div>
+                        <div class="video-up">第6话</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <aside class="aside-wrap">
+            <div class="card-header" style="flex-shrink: 0;">
+                <div class="card-header-left" style="font-size: 24px">排行榜</div>
+                <button class="card-button">更多<b>-></b></button>
+            </div>
+            <div class="aside-body">
+                <ul class="aside-body-list">
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number" style="color: red">1</div>
+                        <a href="" class="list-item-title">
+                            <img src="images/番剧/番剧-list1.png" style="width: 40%">
+                            夏日重现</a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number" style="color: red">2</div>
+                        <a href="" class="list-item-title">间谍过家家</a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number" style="color: red">3</div>
+                        <a href="" class="list-item-title">辉夜大小姐想让我告白 -究极浪漫-</a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">4</div>
+                        <a href="" class="list-item-title">盾之勇者成名录 第二季</a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number">5</div>
+                        <a href="" class="list-item-title">街角魔族 第二季</a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">6</div>
+                        <a href="" class="list-item-title">约会大作战 第四季</a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number">7</div>
+                        <a href="" class="list-item-title">骸骨骑士大人奇幻世界冒险中</a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">8</div>
+                        <a href="" class="list-item-title">鬼灭之刃 游郭篇</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </section>
+
+    <section class="card" style="min-height: 600px" id="comic">
+        <div class="live-card">
+            <div class="card-header">
+                <div class="card-header-left">
+                    <img src="images/漫画/漫画.png" class="card-header-icon" alt="">
+                    <a href="" style="font-size: 20px">漫画</a>
+                </div>
+                <div class="card-header-right">
+                    <button class="card-button">换一换</button>
+                    <a class="card-button" href="">查看更多<b>-></b></a>
+                </div>
+            </div>
+
+            <div class="card-body" style="grid-template-columns: repeat(6,1fr)">
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画1.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">快把我哥带走</div>
+                        <div class="video-up">青春</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画1.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">快把我哥带走</div>
+                        <div class="video-up">青春</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画1.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">快把我哥带走</div>
+                        <div class="video-up">青春</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画1.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">快把我哥带走</div>
+                        <div class="video-up">青春</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画2.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">真理面具</div>
+                        <div class="video-up">悬疑灵异</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画2.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">真理面具</div>
+                        <div class="video-up">悬疑灵异</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画2.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">真理面具</div>
+                        <div class="video-up">悬疑灵异</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画2.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">真理面具</div>
+                        <div class="video-up">悬疑灵异</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画3.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">归还者的魔法要特别</div>
+                        <div class="video-up">奇幻</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画3.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">归还者的魔法要特别</div>
+                        <div class="video-up">奇幻</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画3.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">归还者的魔法要特别</div>
+                        <div class="video-up">奇幻</div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/漫画/漫画3.png" class="video_cover" alt="">
+                        <div class="video-title" style="height: 20px">归还者的魔法要特别</div>
+                        <div class="video-up">奇幻</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <aside class="aside-wrap">
+            <div class="card-header" style="flex-shrink: 0;">
+                <div class="card-header-left" style="font-size: 24px">排行榜</div>
+                <button class="card-button">更多<b>-></b></button>
+            </div>
+
+            <div class="aside-body">
+                <ul class="aside-body-list" style="grid-template-rows: repeat(10,1fr)">
+                    <li class="list-item" style="background-color: white;grid-row: span 3">
+                        <div class="list-number" style="color: red">1</div>
+                        <img src="images/漫画/漫画1.png" style="width: 40%;height: 80%" alt="">
+                        <a href="" style="width: 100%;margin-left: 10px">
+                            <div class="list-item-title">
+                                <span><b>快把我哥带走</b></span>
+                            </div>
+                            <div class="live-list-item-info">
+                                青春<br>更新至322话
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number" style="color: red">2</div>
+                        <a href="" class="live-list-item-info">
+                            <div style="font-size: 16px;color: black">非人哉</div>
+                            <div style="position:absolute;right: 0">更新至796话</div>
+                        </a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number" style="color: red">3</div>
+                        <a href="" class="live-list-item-info">
+                            <div style="font-size: 16px;color: black">大理寺日志</div>
+                            <div style="position:absolute;right: 0">271话</div>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">4</div>
+                        <a href="" class="live-list-item-info">
+                            <div style="font-size: 16px;color: black">《原神》四格漫画</div>
+                            <div style="position:absolute;right: 0">更新至16话</div>
+                        </a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number">5</div>
+                        <a href="" class="live-list-item-info">
+                            <div style="font-size: 16px;color: black">《原神》四格漫画</div>
+                            <div style="position:absolute;right: 0">更新至16话</div>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">6</div>
+                        <a href="" class="live-list-item-info">
+                            <div style="font-size: 16px;color: black">《原神》四格漫画</div>
+                            <div style="position:absolute;right: 0">更新至16话</div>
+                        </a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number">7</div>
+                        <a href="" class="live-list-item-info">
+                            <div style="font-size: 16px;color: black">《原神》四格漫画</div>
+                            <div style="position:absolute;right: 0">更新至16话</div>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">8</div>
+                        <a href="" class="live-list-item-info">
+                            <div style="font-size: 16px;color: black">《原神》四格漫画</div>
+                            <div style="position:absolute;right: 0">更新至16话</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </section>
+
+    <section class="card" id="game">
+        <div class="live-card">
+            <div class="card-header">
+                <div class="card-header-left">
+                    <img src="images/游戏/游戏.png" class="card-header-icon" alt="">
+                    <a href="" style="font-size: 20px">游戏</a>
+                </div>
+                <div class="card-header-right">
+                    <button class="card-button">换一换</button>
+                    <a class="card-button" href="">查看更多<b>-></b></a>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/游戏/游戏1.png" class="video_cover" alt="">
+                        <div class="video-title">【绝区零】内测11个首发角色？你准备玩哪个？</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            门三门 · 昨天
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/游戏/游戏1.png" class="video_cover" alt="">
+                        <div class="video-title">【绝区零】内测11个首发角色？你准备玩哪个？</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            门三门 · 昨天
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/游戏/游戏1.png" class="video_cover" alt="">
+                        <div class="video-title">【绝区零】内测11个首发角色？你准备玩哪个？</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            门三门 · 昨天
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/游戏/游戏1.png" class="video_cover" alt="">
+                        <div class="video-title">【绝区零】内测11个首发角色？你准备玩哪个？</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            门三门 · 昨天
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/游戏/游戏2.png" class="video_cover" alt="">
+                        <div class="video-title">《战术小队》梦 回 越 战</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            卐卐没想捯 · 4-17
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/游戏/游戏2.png" class="video_cover" alt="">
+                        <div class="video-title">《战术小队》梦 回 越 战</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            卐卐没想捯 · 4-17
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/游戏/游戏2.png" class="video_cover" alt="">
+                        <div class="video-title">《战术小队》梦 回 越 战</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            卐卐没想捯 · 4-17
+                        </div>
+                    </a>
+                </div>
+                <div class="video-card">
+                    <a href="">
+                        <img src="images/游戏/游戏2.png" class="video_cover" alt="">
+                        <div class="video-title">《战术小队》梦 回 越 战</div>
+                        <div class="video-up">
+                            <img src="images/up.png" class="video-up-png" alt="">
+                            卐卐没想捯 · 4-17
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <aside class="aside-wrap">
+            <div class="card-header" style="flex-shrink: 0;">
+                <div class="card-header-left" style="font-size: 24px">排行榜</div>
+                <button class="card-button">更多<b>-></b></button>
+            </div>
+
+            <div class="aside-body">
+                <ul class="aside-body-list">
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number" style="color: red">1</div>
+                        <a href="" class="list-item-title">
+                            <img src="images/游戏/游戏-list1.png" style="width: 40%">
+                            《绝区零》首曝PV | 世界全剧终，欢迎来到新艾利都！
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number" style="color: red">2</div>
+                        <a href="" class="list-item-title">我们四个真强！</a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number" style="color: red">3</div>
+                        <a href="" class="list-item-title">
+                            B站独家《刺客信条 : 大革命》电影版 含全新镜头 中法英三字 155分钟完整版 激荡的...
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">4</div>
+                        <a href="" class="list-item-title">
+                            《崩坏3》全新SP角色格蕾修「繁星·绘世之卷」预告
+                        </a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number">5</div>
+                        <a href="" class="list-item-title">学了十年代码写的《拳皇》
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">6</div>
+                        <a href="" class="list-item-title">这可能是王者荣耀有史以来耗时最久的一局巅峰赛了
+                        </a>
+                    </li>
+                    <li class="list-item" style="background-color: white">
+                        <div class="list-number">7</div>
+                        <a href="" class="list-item-title">【live2d动画】为了庆祝三周年动起来的拉普兰德
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-number">8</div>
+                        <a href="" class="list-item-title">吹风机吃人
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </section>
+
+    <div class="list-box">
+        <ul>
+            <li class="list-box-item"><a href="#recommend">热门</a></li>
+            <li class="list-box-item"><a href="#anime">番剧</a></li>
+            <li class="list-box-item"><a href="#live">直播</a></li>
+            <li class="list-box-item"><a href="#comic">漫画</a></li>
+            <li class="list-box-item"><a href="#game">游戏</a></li>
+        </ul>
+    </div>
+</main>
+
+
+
+<footer class="footer">
+    <div>
+        <a href="" style="margin-left: 20px">关于我们</a>
+        <a href="subPage/contactUs.html" style="margin-left: 20px">联系我们</a>
+        <a href="" style="margin-left: 20px">用户协议</a>
+        <a href="" style="margin-left: 20px">友情链接</a>
+    </div>
+    <div class="divider"></div>
+    <div>
+        <p style="font-size: 12px;color: gray">版权信息</p>
+        <div style="font-size: 14px;color: darkgray">
+            dilidili.com<br>
+            @Copyright RippleSu
+        </div>
+    </div>
+</footer>
+
+<script src="js/index.js"></script>
+</body>
+</html>
