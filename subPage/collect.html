@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>收藏</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        .pictures{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 30px;
+            position: relative;
+            top: 100px;
+            padding-bottom: 20px;
+        }
+        .picture{
+            align-items: center;
+            width: 668px;
+            height: 400px;
+        }
+        .image{
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: inherit;
+        }
+        .page{
+            position: absolute;
+            top: 1000px;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        .page button{
+            text-decoration: none;
+            border:1px solid #73c9e5;
+            padding: 5px 7px;
+            background-color: lightblue;
+            color: gray;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        .del-button{
+            height: auto;
+            border-radius: 8px;
+            padding: 7px 12px;
+            font-size: 12px;
+            transform-origin: center;
+            transition: .2s;
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid #dbdbdb;
+        }
+        .del-button:hover{ /*悬停变色*/
+            background-color: #e7e7e7;
+        }
+    </style>
+</head>
+<body id="Body">
+<header id="Header" class="header">
+    <div class="mini-header" id="mini-header">
+        <div class="nav-link">
+            <ul class="nav-link-ul">
+                <li class="nav-link-item" style="padding-top: 5px"><a class="link" href="../index.html" id="main-site">
+                    <div><img src="../images/bilibili.png" style="width: 30px;height: 30px;"
+                              alt="" id="logo">主站</div>
+                </a></li>
+                <li class="nav-link-item"><a class="link" href="../subPage/anime.html" id="nav-anime">番剧</a>
+                    <div class="popover" style="display: none" id="animePop">
+                        <div class="popover-content">
+                            <div class="popover-content-left">
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧1n.png">
+                                    <div class="pcl-title">盾之勇者成名录 第二季</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧2n.png">
+                                    <div class="pcl-title">辉夜大小姐想让我告白</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧3n.png">
+                                    <div class="pcl-title">博人传 火影忍者新时代</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/番剧/番剧4n.png">
+                                    <div class="pcl-title">间谍过家家</div>
+                                </a>
+                            </div>
+                            <div class="pop-divider"></div>
+                            <div class="popover-content-right">
+                                <ul>
+                                    <li style="font-size: 18px"><b>热门番剧</b></li>
+                                    <li><span style="color: gray;font-size: 14px">1</span>
+                                        间谍过家家</li>
+                                    <li><span style="color: gray;font-size: 14px">2</span>
+                                        鬼灭之刃 游郭篇</li>
+                                    <li><span style="color: gray;font-size: 14px">3</span>
+                                        辉夜大小姐想让我告白 -究极浪漫-</li>
+                                    <li><span style="color: gray;font-size: 14px">4</span>
+                                        测不准的阿波连同学</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-live">直播</a>
+                    <div class="popover" style="display: none" id="livePop">
+                        <div class="popover-content">
+                            <div class="popover-content-left">
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/呜米.png">
+                                    <div class="pcl-title">呜米1</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/呜米2.png">
+                                    <div class="pcl-title">呜米2</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/咩栗.png">
+                                    <div class="pcl-title">咩栗1</div>
+                                </a>
+                                <a href="">
+                                    <img class="pcl-img" src="../images/直播/咩栗2.png">
+                                    <div class="pcl-title">咩栗2</div>
+                                </a>
+                            </div>
+                            <div class="pop-divider"></div>
+                            <div class="popover-content-right">
+                                <ul>
+                                    <li style="font-size: 18px"><b>热门活动：</b></li>
+                                    <li style="padding: 0"><a href="">
+                                        <img style="width: 150px;height: 80px"
+                                             src="../images/直播/活动.png"></a></li>
+                                    <li style="padding: 0"><a href="">
+                                        <img style="width: 150px;height: 80px"
+                                             src="../images/直播/活动2.png"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-link-item"><a class="link" href="game.html" id="nav-game">游戏中心</a>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-comic">漫画</a>
+                </li>
+                <li class="nav-link-item"><a class="link" href="" id="nav-event">赛事</a></li>
+            </ul>
+        </div>
+        <div class="nav-search-box">
+            <form class="nav-searchform">
+                <label>
+                    <input type="text" placeholder="你想看的都在这！">
+                </label>
+                <div class="nav-search-but">
+                    <button style="outline: none;">搜索</button>
+                </div>
+            </form>
+        </div>
+        <!--用户-->
+        <div class="nav-user-center">
+            <div class="user-con">
+                <div id="lj" style="display: block; width: 60px;height: 40px;position: absolute; left: -30px;"></div>
+                <div id="lgin" class="name" style="margin-left: 30px;">
+                    <a href="../login.html" style="color: white;">
+                        <img src="../images/akari.jpg" class="logout-face" alt="" id="userImg">
+                        <div id="username" style="display:inline;">登录</div>
+                    </a>
+                </div>
+                <a class="txt name">
+                    <div id="zcc" class="item" style="margin-left: 10px;">注册</div></a>
+                <a href="collect.html" class="text name">
+                    <div id="collect" class="item" style="margin-left: 10px;"></div></a>
+                <button id="tg" style="position: absolute;right: -5px;cursor: pointer;">投稿</button>
+
+            </div>
+
+        </div>
+    </div>
+</header>
+<div style="justify-content: center;display: flex" id="container">
+<!--    <div class="pictures" id="pictures">-->
+<!--        <div class="picture">-->
+<!--            <img class="Image" src="../images/番剧/banner1.png">-->
+<!--            <div style="text-align: center">20225558</div>-->
+<!--            <div style="text-align: center">-->
+                <button style="margin: auto" name="delete" class="card-button">删除</button>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="page">-->
+<!--        <span> 上一页</span>-->
+<!--        <a href="#">1</a>-->
+<!--        <a href="#">2</a>-->
+<!--        <span>下一页</span>-->
+<!--    </div>-->
+</div>
+
+<script src="../js/navigator.js"></script>
+<script>
+    // localStorage.removeItem("pictures");
+    var count=0;
+    window.onload=function (){
+        var pictures=JSON.parse(localStorage.getItem("pictures"));
+        if(!pictures)return;
+        // 添加图片
+        var inner=loadPictures(pictures);
+        // 分页按钮
+        inner=loadSwitchers(pictures,inner);
+        document.getElementById("container").innerHTML=inner;
+        var page=1;
+        document.getElementById("page1").style.display='grid';
+        //绑定单击事件
+        switcherEvents();
+        deleteEvents();
+
+        function deleteEvents(){
+            var deleter=document.getElementsByName("deleter");
+            for (var i=0;i<deleter.length;i++){
+                +function (index){
+                    deleter[index].onclick=function (){
+                        pictures.splice(index,1);
+                        localStorage.setItem("pictures",JSON.stringify(pictures));
+                        location.reload();
+                    }
+                }(i);
+            }
+        }
+        function switcherEvents(){
+            var switcher=document.getElementsByName("switcher");
+            switcher[page].style.borderColor="blue";
+            for(var i=0;i<switcher.length;i++){
+                +function (index){  //IIFE，Immediately Invoked Function Expression
+                    switcher[index].onclick=function (){
+                        switcher[page].style.borderColor="#73c9e5";
+                        Switch(index);
+                        switcher[page].style.borderColor="blue";
+                    }
+                }(i);
+            }
+        }
+        function Switch(i){
+            if(i==0&&page>1){
+                document.getElementById("page"+page).style.display='none';
+                document.getElementById("page"+(page-1)).style.display='grid';
+                page-=1;
+            }else if(i==count+1&&page<count){
+                document.getElementById("page"+page).style.display='none';
+                document.getElementById("page"+(page+1)).style.display='grid';
+                page+=1;
+            }else{
+                if(i==0||i==count+1)return;
+                document.getElementById("page"+page).style.display='none';
+                document.getElementById("page"+i).style.display='grid';
+                page=i;
+            }
+        }
+
+        function loadPictures(pictures){
+            var inner="";
+            for(var i=0;i<pictures.length;i++){
+                if(i%4==0){
+                    inner+="<div class='pictures' style='display: none' id='page"+(i/4+1)+"'>";
+                    count++;
+                }
+                inner+="<div class=\"picture\">";
+                if(pictures[i][0]=="\""){
+                    inner+=pictures[i].toString().substring(1,pictures[i].length-1);
+                }else{
+                    inner+=pictures[i].toString();
+                }
+                inner+="<div style=\"text-align: center\">\n" +
+                    "<button name=deleter class=del-button>删除</button>\n" +
+                    "</div></div>";
+                if((i+1)%4==0||(i+1)==pictures.length){
+                    inner+="</div>";
+                }
+            }
+            return inner;
+        }
+        function loadSwitchers(pictures,inner){
+            if(pictures.length!=0){
+                inner+="<div class='page'><button name='switcher'>上一页</button>";
+                for(var i=0;i<pictures.length;i+=4){
+                    inner+="<button name='switcher'>"+(i/4+1)+"</button>";
+                }
+                inner+="<button name='switcher'>下一页</button></div>";
+            }
+            return inner;
+        }
+    }
+</script>
+</body>
+</html>
