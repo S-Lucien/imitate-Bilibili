@@ -1,3 +1,5 @@
+<a href='https://s-lucien.github.io/imitate-Bilibili/'>Click here to preview</a>  
+
 目录
 
 [一、 网站项目说明](#网站项目说明)
@@ -46,7 +48,7 @@
 
 网站整体结构如下：
 
-![](media/bba3c39fe49af6250cd8a1930cadd4f1.png)
+![](https://s2.loli.net/2023/03/03/lBP6RKa8GYm1dpN.png)
 
 ## 网站各项目详细说明
 
@@ -56,67 +58,67 @@
 
 登录页面：
 
-![](media/9f8bde50ecfb37b36f94a1ca6f722f4c.png)
+![](https://s2.loli.net/2023/03/03/MGOYZzbxpm5KBCa.png)
 
 联系页面：
 
-![](media/7d2cf85da3d26f3cb1f9ebecf275e249.png)
+![](https://s2.loli.net/2023/03/03/L2y4xfSohHzTjV9.png)
 
 主页面：
 
-![](media/c4ac424428dfa4c6bc46ded48062978b.png)
+![](https://s2.loli.net/2023/03/03/DWn6iPvf1V8Fqar.png)
 
 分类展示页面-番剧：
 
-![](media/4279258fa29aafe9d582b1845f3bfb32.png)
+![](https://s2.loli.net/2023/03/03/aSUBOveIypVD8H2.png)
 
 分类展示页面-游戏中心：
 
-![](media/3d6359a1d82bd1568f2e6e51fd038ea5.png)
+![](https://s2.loli.net/2023/03/03/Tw2BuRLWAIPFrJs.png)
 
 视频详情页：
 
-![](media/41f9868da9d41f4ca2ed1bd1c5bd3b92.png)
+![](https://s2.loli.net/2023/03/03/6txIMK42rugOWJv.png)
 
 #### 主页完整性
 
 页眉区：
 
-![](media/7d5ed2ff21ad63d683a7f66564cd00a8.png)
+![](https://s2.loli.net/2023/03/03/iB4lnyVvJZsQpu6.png)
 
 Banner广告区：
 
-![](media/689d1d2695ac02a5cedffafaafee3f02.jpeg)
+![](https://s2.loli.net/2023/03/03/6G8lzJSXydoRVcB.jpg)
 
 正文区：
 
-![](media/3e113b0504100a1bd5c40602b9f635fe.png)
+![](https://s2.loli.net/2023/03/03/9H5daUWNhiFLT2P.png)
 
 副栏区：
 
-![](media/6c6393167b8565e22b9520da868cf9aa.png)
+![](https://s2.loli.net/2023/03/03/a4GjMrW1PmVLkUd.png)
 
 页脚区：
 
-![](media/foot.png)
+![](https://s2.loli.net/2023/03/03/5EIaUOuzBrSwgQR.png)
 
 #### 网页元素多样性
 
 列表（ul）：
 
-![](media/81875643b7e7ce7bc8e31646af2d8063.png)
+![](https://s2.loli.net/2023/03/03/JK3vgEZtwUjMPpX.png)
 
 图文混排：
 
-![](media/0056f155b3627c5553f83ee80f00ada8.png)
+![](https://s2.loli.net/2023/03/03/KTam1oZjB2GDQtN.png)
 
 视频：
 
-![](media/9ee41b829f5f4633891ad3d4c2b60f08.png)
+![](https://s2.loli.net/2023/03/03/1P8vNRukIwnQf4B.png)
 
 Canvas：
 
-![](media/57c611fef491a2d5ab5b441f03ca5704.png)
+![](https://s2.loli.net/2023/03/03/WzgSC9pfmeaLZx5.png)
 
 ### 网站样式设计说明
 
@@ -168,9 +170,9 @@ Footer部分较为简单，主要由文字构成，包含联系我们等链接�
 
 当滚轮位于最上方时，导航栏内文字颜色为白色，背景为透明，与背景图融为一体。滚轮向下移动离开页面最上方时，导航栏内文字颜色变为黑色，背景颜色变为浅灰色，浮于页面最上层。如下图所示：
 
-![](media/e922333501d428e11f83a4a7dc1962dc.png)
+![](https://s2.loli.net/2023/03/03/hVN49LIgKYROtyz.png)
 
-![](media/f4ca83d85a2e94542df2c731c98f9c50.png)
+![](https://s2.loli.net/2023/03/08/vRVuSdO5P7Hq9t1.png)
 
 图 22.1 导航栏样式
 
@@ -178,7 +180,7 @@ Footer部分较为简单，主要由文字构成，包含联系我们等链接�
 
 Dilidili共有三种广告样式，此处只介绍第二种。效果如下图所示：
 
-![](media/c3af6848c2a01dae97ff996a59387df0.png)
+![](https://s2.loli.net/2023/03/03/oRaFjOLbWy9UuwT.png)
 
 整个banner区域采用flex布局，并设置justify-content属性为center，使其居中。Banner宽度为75%，内部使用dl列表，并设置position属性为relative。列表内含dt和dd两部分。
 
@@ -190,7 +192,7 @@ dd部分由图片及其左下角的介绍构成。图片铺满整个banner区域
 
 以如下样式为例介绍：
 
-![](media/4ccf4c040e29b58d6426bda57b634402.png)
+![](https://s2.loli.net/2023/03/03/TAdIUluaGe6S9jD.png)
 
 区域顶部为高1px的灰色分割线，下方内容区与其间距为16px。内容区分为左右两部分。左边为宽高固定的图片，图片包含于anchor中。为anchor设置向左浮动（float：left）属性，使文字可以居于图片右方。右边文字自上而下分为5个小块。除了简介部分为detail外，其他均包含于div中。各个部分的文字在颜色、大小、字宽、行高、内外边距等方面各有差异，详情不再赘述。
 
@@ -214,7 +216,7 @@ pattern="\^(13[0-9]\|14[01456879]\|15[0-35-9]\|16[2567]\|17[0-8]\|18[0-9]\|19[0-
 
 登录后，导航栏右边用户区发生变化，显示用户的用户名、头像、收藏页链接。如下图所示：
 
-![](media/15f3651cc1c76375874228a9730a2c25.png) --\> ![](media/ff1476899f4cd976d7d02494737a66c9.png)
+![](https://s2.loli.net/2023/03/03/WtHuXJ4Zl5Dad6g.png) --\> ![](https://s2.loli.net/2023/03/03/fJ6bT1GXBKZmxdy.png)
 
 登陆成功时，通过js将用户名存入sessionStorage中，跳转到各个页面时，从sessionStorage中读出用户名并将其作为文本替换原来的‘登录’；将‘注册’元素隐藏并显示‘收藏’。
 
@@ -250,7 +252,7 @@ pattern="\^(13[0-9]\|14[01456879]\|15[0-35-9]\|16[2567]\|17[0-8]\|18[0-9]\|19[0-
 
 显示效果如下：
 
-![](media/c781243849dd8e7e821ab2ba257c7322.png)
+![](https://s2.loli.net/2023/03/03/gcEX6PF93tofr1e.png)
 
 ### 特色
 
@@ -260,7 +262,7 @@ pattern="\^(13[0-9]\|14[01456879]\|15[0-35-9]\|16[2567]\|17[0-8]\|18[0-9]\|19[0-
 
 游戏中心页面广告设计如下图所示：
 
-![](media/5a5b31bdcdc1d0357ab8ba1157478763.jpeg)
+![](https://s2.loli.net/2023/03/03/TnmRUwyVSEaMZNo.jpg)
 
 广告由三张图片构成，为每张图片设置不同的z-index值，并分别调整顶层于底层图片的box-shadow与brightness值，然后利用translateX调整三张图片在X轴的偏移量使看起来其层次分明。
 
@@ -270,7 +272,7 @@ pattern="\^(13[0-9]\|14[01456879]\|15[0-35-9]\|16[2567]\|17[0-8]\|18[0-9]\|19[0-
 
 伸缩盒子：效果如下：
 
-![](media/55b79a510e2f8964f6919183a89f905c.jpeg)![](media/203bc285b15996a20433a01e122deea3.png)
+![](https://s2.loli.net/2023/03/03/r4pvAuJkUmeHD92.jpg)![](https://s2.loli.net/2023/03/03/H79ugpRqjAYDGs1.png)
 
 当鼠标悬停在区域上时，内部的简介‘弹出’，并设置其边框的阴影效果，表现出伸缩的效果。具体实现为：初始时将简介部分高度设置为0，整个标签设置上边距16px；当鼠标悬停时，将简介部分高度设置为16px，并将上边距调整为0、设置阴影效果，使得交互效果更加明显。
 
@@ -278,7 +280,7 @@ pattern="\^(13[0-9]\|14[01456879]\|15[0-35-9]\|16[2567]\|17[0-8]\|18[0-9]\|19[0-
 
 效果如下：
 
-![](media/e7fdbcbbbf2ec583f2d663ef31133931.png)
+![](https://s2.loli.net/2023/03/03/6XOwKBREYeMbmyV.png)
 
 为‘发布’按钮添加单击事件：判断输入框内是否为空，如果为空则用focus方法使输入框成为焦点；否则调用loadStorage方法，将评论内容及评论时间以JSON格式存入localStorage。该方法在页面加载完毕或点击发布后，从localStorage中读出所有评论，然后封装在div元素中，通过innerHtml方法将所有评论加载到评论区。
 
@@ -290,4 +292,4 @@ pattern="\^(13[0-9]\|14[01456879]\|15[0-35-9]\|16[2567]\|17[0-8]\|18[0-9]\|19[0-
 
 页面效果如下，详情可打开页面体验：
 
-![](media/8ab2e2f1f274dfeffbb9ea0af5efe74d.png)
+![](https://s2.loli.net/2023/03/03/uAo9IzkH5DM7prV.png)
